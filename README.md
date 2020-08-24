@@ -1,2 +1,2 @@
-# goit-markup-hw-07
-Home work 3: pre processor SASS
+# goit-markup-hw-06
+Home work 6
