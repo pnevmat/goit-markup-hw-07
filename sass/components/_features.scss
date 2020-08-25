@@ -1,0 +1,38 @@
+/* features */
+.ul .items {
+    align-items: flex-start;
+}
+.ul .items:not(:last-child) {
+    margin-right: 30px;
+}
+.features-items {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+
+    background-color: #F5F4FA;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+
+    fill: #AFB1B8;
+}
+.features {
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+.section-text {
+    text-align: left;
+    color: #757575;
+    font-weight: 400;
+    line-height: 1.71;
+}

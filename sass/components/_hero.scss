@@ -1,0 +1,56 @@
+// main
+.main {
+    text-align: center;
+}
+// hero
+.hero-conteiner {
+    margin: 0 auto 94px auto;
+    max-width: 1600px;
+    height: 600px;
+    background-color: rgba(47, 48, 58, 0.8);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)),
+        url("../../img/header-img.jpg");
+}
+.header {
+    color: $secondary-text-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.absolute {
+    position: absolute;
+    top: 224px;
+    right: 0px;
+}
+.header.absolute {
+    top: 200px;
+    right: 430px;
+    left: 430px;
+}
+.button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 4px;
+
+    background-color: $primary-page-color;
+    color: $secondary-text-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+.button.absolute {
+    top: 330px;
+    right: 700px;
+}
