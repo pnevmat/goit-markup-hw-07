@@ -6,7 +6,7 @@
 .absolute.desine-desisions {
     top: 343px;
     right: 490px;
-    max-width: 370px;
+    width: auto;
 }
 .items-width {
     width: 270px;
@@ -34,29 +34,4 @@
 }
 .ul .team-item:not(:last-child) {
     margin-right: 10px;
-}
-.social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 44px;
-    height: 44px;
-    margin-bottom: 0;
-    border-radius: 50%;
-
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link .icon {
-    width: 20px;
-    height: 20px;
-
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus,
-    &:hover .icon,
-    &:focus .icon {
-        fill: $secondary-page-color;
-        background-color: $primary-page-color;
-    }
 }
